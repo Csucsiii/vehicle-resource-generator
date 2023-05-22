@@ -72,6 +72,9 @@ const main = async () => {
 
             copyFilesWithSpecificName(path.join(INPUT_FOLDER, dir), resourceDataFolder, [".meta"]);
         });
+    }else{
+        fs.mkdirSync(INPUT_FOLDER);
+        console.log("Created input folder, copy your vehicle resource into this folder.");
     }
 };
 
