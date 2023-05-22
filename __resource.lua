@@ -4,7 +4,8 @@ game 'gta5'
 
 version '1.0.0'
 author 'Csucsi'
-description 'All Galaxy Vehicles'
+repository 'https://github.com/Csucsiii/vehicle-resource-generator'
+description 'All Vehicles'
 
 files {
     "data/**/*"
