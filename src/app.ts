@@ -74,7 +74,7 @@ const main = async () => {
         });
     }else{
         fs.mkdirSync(INPUT_FOLDER);
-        console.log("Created input folder, copy your vehicle resource into this folder.");
+        console.log("Created input folder, copy your vehicle resources into this folder.");
     }
 };
 
